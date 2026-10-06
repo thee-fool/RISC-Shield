@@ -7,7 +7,7 @@
 
 **RISC-Shield** is a small System-on-Chip written in Verilog. It puts a custom single-cycle RISC-V CPU, standard peripherals, a CNN inference accelerator, and an AES-128 encryption engine on one memory-mapped bus. The CPU controls every block by reading and writing fixed addresses, the same way commercial edge-AI and IoT microcontrollers work.
 
-> Maintained by **Aditya Patel**. Based on the original *TinySecure SoC* by **Dhruv Singla** (MIT License). See [Credits](#credits).
+
 
 ---
 
@@ -127,10 +127,7 @@ TEST COMPLETED.
 - [CPU](docs/cpu.md) · [Bus](docs/bus.md) · [Memory map](docs/memory_map.md)
 - [Peripherals](docs/peripherals.md) · [CNN accelerator](docs/cnn_accelerator.md) · [AES-128](docs/aes128.md)
 
-## Credits
 
-- **Aditya Patel**: maintainer of RISC-Shield SoC
-- **Dhruv Singla**: original author of TinySecure SoC, on which this project is based
 
 ## License
 

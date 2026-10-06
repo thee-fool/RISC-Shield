@@ -1,0 +1,43 @@
+# Simulation outputs
+*.vvp
+*.vcd
+*.lxt
+*.fst
+
+# Icarus Verilog
+*.out
+
+# Yosys
+*.blif
+*.edif
+*.json
+*.log
+
+# OpenLane
+runs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Build artifacts
+build/
+*.o
+*.d
+
+# Waveform dumps (keep directory, ignore large files)
+waveforms/*.vcd
+waveforms/*.fst
+waveforms/*.lxt
+
+# Results (keep directory)
+results/*.log
+results/*.rpt
